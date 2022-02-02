@@ -27,12 +27,14 @@ task :publish do
   File.write(new_file, draft_body)
   File.delete(current_drafts[input])
 
-  sh 'bundle exec jekyll build -d ./docs'
+  build_site
+  push "Post: #{current_drafts[input]}"
+end
 
-  sh 'git add docs/'
-  sh 'git add _drafts/'
-  sh "git commit -m 'Post: #{current_drafts[input]}'"
-  sh 'git push'
+desc 'Rerender the site, because the layout or other assets have changed.'
+task :rerender do
+  build_site
+  push 'Chore: Rerender'
 end
 
 desc 'Generating a new draft'
@@ -54,4 +56,15 @@ def mkheader(title)
     ---
 
   DOC
+end
+
+def build_site
+  sh 'bundle exec jekyll build -d ./docs'
+end
+
+def push(commit_msg)
+  sh 'git add docs/'
+  sh 'git add _drafts/'
+  sh "git commit -m '#{commit_msg}'"
+  sh 'git push'
 end
