@@ -1,0 +1,7 @@
+* Essays
+- The structural incentives dilemma/disaster between people requiring a lot of
+  feedback to follow complex automations, and computers making it extremely easy
+  to make things very complex, and very effortful/hard to give feedback.
+
+* Tutorials
+- Guidelines for writing sharp-end ops tools.
