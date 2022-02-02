@@ -29,4 +29,4 @@ All that said, here's some things I'm currently drafting:
 No guarantees all of those will be published, but this is roughly why I split
 this out.
 
-[rambling]: https://rambling.malignat.ys
+[rambling]: https://rambling.malignat.us
