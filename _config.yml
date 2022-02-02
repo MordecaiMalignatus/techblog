@@ -8,11 +8,11 @@ url: https://tech.malignat.us/
 
 # Optional settings
 
-about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
-rss_enabled: true # Change to false if not
-scrollappear_enabled: true # Change to false to disable
-tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
-theme_toggle: false # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
+about_enabled: true
+rss_enabled: true
+scrollappear_enabled: true
+tag_nav_enabled: false
+theme_toggle: false
 social:
   github: mordecaimalignatus
   twitter: m_malignatus
@@ -29,9 +29,7 @@ assets:
     - _assets/stylesheets
     - _assets/yarn
 exclude:
-  - .travis.yml
   - bin/*
-  - circle.yml
   - Gemfile
   - Gemfile.lock
   - package.json
