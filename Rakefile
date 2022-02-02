@@ -27,7 +27,12 @@ task :publish do
   File.write(new_file, draft_body)
   File.delete(current_drafts[input])
 
-  sh 'npm run publish'
+  sh 'bundle exec jekyll build -d ./docs'
+
+  sh 'git add docs/'
+  sh 'git add _drafts/'
+  sh "git commit -m 'Post: #{current_drafts[input]}'"
+  sh 'git push'
 end
 
 desc 'Generating a new draft'
