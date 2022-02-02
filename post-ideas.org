@@ -3,5 +3,9 @@
   feedback to follow complex automations, and computers making it extremely easy
   to make things very complex, and very effortful/hard to give feedback.
 
+** Contra Machine Learning in software operations tooling
+- Machine Learning should not be used in software-operational tooling.
+- "AI powered" tooling
+
 * Tutorials
 - Guidelines for writing sharp-end ops tools.
