@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Mordecai's Blog</title>
+    <description></description>
+    <link>https://tech.malignat.us/</link>
+    <atom:link href="https://tech.malignat.us//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>A Different Blog For A Different Field</title>
+        <description></description>
+        <pubDate>Wed, 02 Feb 2022 00:00:00 +0100</pubDate>
+        <link>https://tech.malignat.us//posts/a-different-blog-for-a-different-field</link>
+        <guid isPermaLink="true">https://tech.malignat.us//posts/a-different-blog-for-a-different-field</guid>
+      </item>
+    
+  </channel>
+</rss>
