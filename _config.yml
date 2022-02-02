@@ -8,13 +8,12 @@ url: https://tech.malignat.us/
 
 # Optional settings
 
-about_enabled: true
+about_enabled: false
 rss_enabled: true
 scrollappear_enabled: true
-tag_nav_enabled: false
 theme_toggle: false
+
 social:
-  github: mordecaimalignatus
   twitter: m_malignatus
   email: mordecai@malignat.us
 
