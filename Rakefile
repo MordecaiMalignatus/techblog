@@ -65,6 +65,7 @@ end
 def push(commit_msg)
   sh 'git add docs/'
   sh 'git add _drafts/'
+  sh 'git add _posts/'
   sh "git commit -m '#{commit_msg}'"
   sh 'git push'
 end
