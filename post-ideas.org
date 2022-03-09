@@ -3,5 +3,17 @@
   feedback to follow complex automations, and computers making it extremely easy
   to make things very complex, and very effortful/hard to give feedback.
 
+** Contra AIOps
+Machine learning model surprise potential: one pixel attacks, model formed by
+practitioner will always include innumerable potential for surprisej
+
+** Doing asynchronous communication well
+- Putting plans, goals, intentions into your communication
+- Don't hesitate to drop to synchronous if there's misunderstandings.
+  - Dropping to sync to /clarify/ existing common ground is infinitely faster
+    than doing it all sync, in terms of effort.
+- Asynchronous communication broadcasts: Well-written messages can be shared
+  broadly.
+
 * Tutorials
 - Guidelines for writing sharp-end ops tools.
